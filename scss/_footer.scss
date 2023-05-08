@@ -1,0 +1,46 @@
+
+$secondary_color : rgb(248, 69, 4);
+
+.footerbox{
+    margin-top: 30px;
+
+    .footer{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 70px;
+        font-family: 'Poppins';
+        background-color: black;
+        color: aliceblue;
+        padding: 20px 20px;
+        .footer__item{
+            display: flex;
+            flex-direction: column;
+
+            .footer__logo{
+                font-family: 'Satisfy';
+                font-size: 30px;
+
+                span{
+                    color: $secondary_color;
+                }
+            }
+
+            h3{
+                margin: 10px 0;
+            }
+            p{
+                font-size: 13px;
+                color: gray;
+                cursor: pointer;
+            }
+            p:hover{
+                color: $secondary_color;
+            }
+        }
+    }
+ 
+}
+
+

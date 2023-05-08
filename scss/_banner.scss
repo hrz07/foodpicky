@@ -1,0 +1,56 @@
+$primary_color: #ffffff;
+$secondary_color : rgb(248, 69, 4);
+$margin_top: 8px;
+
+.banner{
+   background-image: url('./../source/demo/imageedit_4_7741128666.jpg');
+   height: 70vh;
+   margin-bottom: 80px;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   .banner__heading{
+    color: $primary_color;
+    font-family: 'Satisfy';
+    font-size: 66px;
+   }
+   .banner__text{
+    color: white;
+    font-family: 'Poppins';
+   }
+
+   .banner__container{
+    margin-left: 50px;
+    align-items: center;
+    text-align: center;
+   }
+
+   .banner__searchbox{
+      margin-top: $margin_top;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+
+
+      .banner__input{
+         font-size: 20px;
+         height: 30px;
+         outline: none;
+      }
+      .banner__button{
+         height: 30px ;
+         background-color: $secondary_color;
+         padding: 5px;
+         border: none;
+         color: $primary_color;
+         cursor: pointer;
+      }
+   }
+
+
+ 
+}

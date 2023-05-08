@@ -7,13 +7,240 @@
     <link rel="stylesheet" href="./scss/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="./source/fav/favicon.ico">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Foodpicky</title>
   </head>
   <body>
-    <h1>Bangladesh</h1>
+    <!-- nav section -->
+    <nav id="nav" class="nav">
+      <div class="container nav__container">
+        <p class="nav__logo"><span>food</span>picky</p>
+        <div class="nav__buttons">
+          <li class="nav__active">Home</li>
+          <li>Food</li>
+          <li>Restaurant</li>
+          <li>Pages</li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- bannerr section -->
+    <section id="banner" class="banner">
+      <div class="banner__container">
+        <h1 class="banner__heading">Order Delivery & Take-Out</h1>
+        <p class="banner__text">
+          Find restaurants, specials, and coupons for free
+        </p>
+        <div class="banner__searchbox">
+          <input class="banner__input" type="text" />
+          <button class="banner__button">Search Food</button>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section id="foods">
+      <h1 class="foods__title">Popular Foods Of This Month</h1>
+      <p class="foods__text">The easiest way to find your favourite food</p>
+      <div class="foods__cards">
+        <div class="food--card">
+          <img src="./source/demo/chicken_fry.jpg" class="food__image" alt="" />
+          <h4 class="food__title">The South's Best Fried Chicken</h4>
+          <span class="food__desc">Fried Chicken with cheese</span>
+
+        
+
+
+
+
+          <div class="food-rating-delivery">
+            <div class="food__rating">
+             <span class="material-symbols-outlined">
+               star
+               </span>
+             <span class="material-symbols-outlined">
+               star
+               </span>
+             <span class="material-symbols-outlined">
+               star
+               </span>
+             <span class="material-symbols-outlined">
+               star
+               </span>
+             <span class="material-symbols-outlined">
+               star
+               </span>
+             <span class="material-symbols-outlined">
+               star
+               </span>
+  
+            </div>
+            <div class="food__distance">
+             <span class="material-symbols-outlined">
+               two_wheeler
+               </span>
+              <span>30 min</span>
+            </div>
+         </div>
+
+
+
+
+
+          <div class="food-card-btns">
+            <span class="food-card-money">$ 15.99</span>
+            <button class="food__btn">Order Now</button>
+          </div>
+        </div>
+        <div class="food--card">
+          <img src="./source/demo/biriyani.jpg" class="food__image" alt="" />
+          <h4 class="food__title">Best Mughol Biriyani</h4>
+          <span class="food__desc">Mughol Flavour Biriani</span>
+
+
+          <div class="food-rating-delivery">
+            <div class="food__rating">
+             <span class="material-symbols-outlined">
+               star
+               </span>
+             <span class="material-symbols-outlined">
+               star
+               </span>
+             <span class="material-symbols-outlined">
+               star
+               </span>
+             <span class="material-symbols-outlined">
+               star
+               </span>
+             <span class="material-symbols-outlined">
+               star
+               </span>
+             <span class="material-symbols-outlined">
+               star
+               </span>
+  
+            </div>
+            <div class="food__distance">
+             <span class="material-symbols-outlined">
+               two_wheeler
+               </span>
+              <span>30 min</span>
+            </div>
+         </div>
+
+
+
+
+          <div class="food-card-btns">
+            <span class="food-card-money">$ 19.99</span>
+            <button class="food__btn">Order Now</button>
+          </div>
+        </div>
+        <div class="food--card">
+          <img
+            src="https://www.nehascookbook.com/wp-content/uploads/2022/09/Muglai-parotha-WS.jpg"
+            class="food__image"
+            alt=""
+          />
+          <h4 class="food__title">Egg Moglai</h4>
+          <span class="food__desc">Egg Moglai with Cheese</span>
+
+
+          <div class="food-rating-delivery">
+            <div class="food__rating">
+             <span class="material-symbols-outlined">
+               star
+               </span>
+             <span class="material-symbols-outlined">
+               star
+               </span>
+             <span class="material-symbols-outlined">
+               star
+               </span>
+             <span class="material-symbols-outlined">
+               star
+               </span>
+             <span class="material-symbols-outlined">
+               star
+               </span>
+               <span class="material-symbols-outlined">
+                star_half
+                </span>
+  
+            </div>
+            <div class="food__distance">
+             <span class="material-symbols-outlined">
+               two_wheeler
+               </span>
+              <span>30 min</span>
+            </div>
+         </div>
+
+
+
+          <div class="food-card-btns">
+            <span class="food-card-money">$ 8.99</span>
+            <button class="food__btn">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footerbox">
+      <div class="footer">
+        <div class="footer__item">
+          <h3 class="footer__logo"><span>Food</span>picky</h3>
+          <p>Order Delivery & Take-Out</p>
+        </div>
+        <div class="footer__item">
+          <h3>About Us</h3>
+          <p>About us</p>
+          <p>History</p>
+          <p>Our Team</p>
+          <p>We are hiring</p>
+          <p>Our Projects</p>
+        </div>
+        <div class="footer__item">
+          <h3>How it Works</h3>
+          <p>Enter your location</p>
+          <p>Choose restaurant</p>
+          <p>Chose meal</p>
+          <p>Pay via credit card</p>
+          <p>Wait for delivery</p>
+        </div>
+        <div class="footer__item">
+          <h3>Pages</h3>
+          <p>Search results page</p>
+          <p>User Sing Up Page</p>
+          <p>Pricing Page</p>
+          <p>Make Order</p>
+          <p>Add to cart</p>
+        </div>
+        <div class="footer__item">
+          <h3>Popular locations</h3>
+          <p>Gulshan</p>
+          <p>Banani</p>
+          <p>Uttara</p>
+          <p>Mirpur</p>
+          <p>Dhanmondi</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

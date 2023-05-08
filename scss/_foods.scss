@@ -1,0 +1,130 @@
+$primary_color: #ffffff;
+$secondary_color : rgb(248, 69, 4);
+
+.foods{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+
+  
+}
+.foods__title{
+    font-family: 'Poppins';
+    text-align: center;
+}
+.foods__text{
+    font-family: 'Poppins';
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.foods__cards{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    align-items: center;
+    gap: 35px;
+    margin: 0 auto;
+}
+
+.food__title{
+    font-family: 'Poppins';
+    margin-top: 30px;
+   margin-left: 20px;
+   
+}
+.food__desc{
+    font-family: 'Poppins';
+    color: rgb(128, 127, 127);
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.food--card{
+    height: 390px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    width: 340px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.food--card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.food__image{
+  width: 340px;
+  height: 200px;
+}
+.food-card-btns{
+    margin-top: 5px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .food-card-money{
+        font-family: 'Poppins';
+        font-weight: bold;
+        font-size: 22px;
+        color: black;
+    }
+    .food__btn{
+        color: $secondary_color;
+        border-radius: 4px;
+        border: none;
+        border: 1px dashed $secondary_color;
+        padding: 2px 5px;
+        cursor: pointer;
+        transition: 0.6s ease;
+    }
+ .food__btn:hover{
+    background-color: $secondary_color;
+    color: $primary_color;
+ }
+
+}
+
+.food-rating-delivery{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 18px;
+}
+
+.food__rating{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+   }
+   .material-symbols-outlined{
+    font-size: 70px;
+}
+
+.food__distance{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Poppins';
+}
+
+
+
+.material-symbols-outlined {
+    font-size:30px;
+    font-variation-settings:
+      'FILL' 1,
+      'wght' 200,
+      'GRAD' 0,
+      'opsz' 0;
+      color: orangered;
+      padding: 0;
+      margin: 0;
+  }
+  
+  /* Option 2 */
+  .icon{
+    font-size:20px;
+  }

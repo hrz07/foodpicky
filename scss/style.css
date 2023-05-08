@@ -1,11 +1,253 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Josefin+Sans:wght@600&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,600&family=Roboto:wght@100;300;400;500;700;900&family=Urbanist:wght@700;800;900&display=swap");
-h1 {
-  background: #ffab23;
+.nav {
+  background-color: rgb(43, 42, 42);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+}
+.nav .nav__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .nav__container li {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.nav .nav__container .nav__active {
+  background-color: rgb(248, 69, 4);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.nav .nav__container .nav__buttons {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-family: "Poppins";
+  gap: 40px;
+}
+.nav .nav__container .nav__logo {
   font-family: "Satisfy";
+  font-size: 24px;
+  color: white;
+}
+.nav .nav__container .nav__logo span {
+  color: rgb(248, 69, 4);
+}
+
+.banner {
+  background-image: url("./../source/demo/imageedit_4_7741128666.jpg");
+  height: 70vh;
+  margin-bottom: 80px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .banner__heading {
+  color: #ffffff;
+  font-family: "Satisfy";
+  font-size: 66px;
+}
+.banner .banner__text {
+  color: white;
+  font-family: "Poppins";
+}
+.banner .banner__container {
+  margin-left: 50px;
+  align-items: center;
+  text-align: center;
+}
+.banner .banner__searchbox {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.banner .banner__searchbox .banner__input {
+  font-size: 20px;
+  height: 30px;
+  outline: none;
+}
+.banner .banner__searchbox .banner__button {
+  height: 30px;
+  background-color: rgb(248, 69, 4);
+  padding: 5px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.foods {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.foods__title {
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.foods__text {
+  font-family: "Poppins";
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.foods__cards {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  align-items: center;
+  gap: 35px;
+  margin: 0 auto;
+}
+
+.food__title {
+  font-family: "Poppins";
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.food__desc {
+  font-family: "Poppins";
+  color: rgb(128, 127, 127);
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.food--card {
+  height: 390px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  width: 340px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.6s ease;
+}
+
+.food--card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.food__image {
+  width: 340px;
+  height: 200px;
+}
+
+.food-card-btns {
+  margin-top: 5px;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.food-card-btns .food-card-money {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 22px;
+  color: black;
+}
+.food-card-btns .food__btn {
+  color: rgb(248, 69, 4);
+  border-radius: 4px;
+  border: none;
+  border: 1px dashed rgb(248, 69, 4);
+  padding: 2px 5px;
+  cursor: pointer;
+  transition: 0.6s ease;
+}
+.food-card-btns .food__btn:hover {
+  background-color: rgb(248, 69, 4);
+  color: #ffffff;
+}
+
+.food-rating-delivery {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 18px;
+}
+
+.food__rating {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.material-symbols-outlined {
+  font-size: 70px;
+}
+
+.food__distance {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Poppins";
+}
+
+.material-symbols-outlined {
+  font-size: 30px;
+  font-variation-settings: "FILL" 1, "wght" 200, "GRAD" 0, "opsz" 0;
+  color: orangered;
+  padding: 0;
+  margin: 0;
+}
+
+/* Option 2 */
+.icon {
+  font-size: 20px;
+}
+
+.footerbox {
+  margin-top: 30px;
+}
+.footerbox .footer {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 70px;
+  font-family: "Poppins";
+  background-color: black;
+  color: aliceblue;
+  padding: 20px 20px;
+}
+.footerbox .footer .footer__item {
+  display: flex;
+  flex-direction: column;
+}
+.footerbox .footer .footer__item .footer__logo {
+  font-family: "Satisfy";
+  font-size: 30px;
+}
+.footerbox .footer .footer__item .footer__logo span {
+  color: rgb(248, 69, 4);
+}
+.footerbox .footer .footer__item h3 {
+  margin: 10px 0;
+}
+.footerbox .footer .footer__item p {
+  font-size: 13px;
+  color: gray;
+  cursor: pointer;
+}
+.footerbox .footer .footer__item p:hover {
+  color: rgb(248, 69, 4);
 }
 
 *, *::after, *::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.container {
+  width: 90%;
 }/*# sourceMappingURL=style.css.map */
